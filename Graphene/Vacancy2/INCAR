@@ -1,0 +1,62 @@
+# SCF input for VASP
+# Note that VASP uses the FIRST occurence of a keyword
+SYSTEM =  MnS2 
+
+ Starting parameters for this run:
+   NWRITE =      2    write-flag
+   ISTART =      0    job   : 0-new, 1-cont, 2-samecut
+   ICHARG =      2    charge: 0-wave, 1-file, 2-atom, >10-const
+   INIWAV =      1    electr: 0-lowe 1-rand  2-diag
+
+
+Electronic Relaxation:
+   PREC   =   Accurate   low | medium | high
+
+   NELM   =     100    number of ELM steps
+   NELMIN =     10
+   EDIFF  =  1E-06    energy stopping-criterion for ELM
+   LREAL  =   .FALSE.    real-space projection (.FALSE., .TRUE., On, Auto)
+   ALGO  =    Normal
+#   GGA = PE
+
+   GGA = BO
+   PARAM1 = 0.1833333333
+   PARAM2 = 0.2200000000
+   LUSE_VDW = .TRUE.
+   AGGAC = 0.0000
+
+
+    LCHARG = .FALSE.
+    LWAVE  = .FALSE.
+#    AMIN     =   0.01
+#   LBERRY = .TRUE.
+#   IGPAR  = 2
+#   NPPSTR = 9
+#
+#    LCALCEPS = .TRUE.
+#
+#    LCALCPOL = .TRUE.
+#    DIPOL  = 0.25 0.25 0.25
+
+
+#   Spin orbit poperties:
+#   ISPIN   = 2
+#   LSORBIT = .TRUE.
+#   LORBIT  = 11
+#   SAXIS   = 0 0 1 
+#   MAGMOM  = 0 0 0 0 0 0 0 0 0 0 0 
+#   MAXMIX  = 10
+
+#    Ionic Relaxation:
+    NSW    =    200      max number of geometry steps
+    IBRION =     2     ionic relax: 0-MD, 1-quasi-Newton, 2-CG, 3-Damped MD
+    EDIFFG =   -0.001  force (eV/A) stopping-criterion for geometry steps
+    ISIF   =     2     (1:force=y stress=trace only ions=y shape=n volume=n)
+    ISYM   =     1     (1-use symmetry, 0-no symmetry)
+    POTIM  =     0.1   initial time step for geo-opt (increase for soft sys)
+#
+    ISMEAR =     0   (-1-Fermi, 1-Methfessel/Paxton)
+    SIGMA  =     0.2   broadening in eV
+    ENCUT  =     550
+
+    NPAR   =     2

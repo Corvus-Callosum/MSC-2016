@@ -1,0 +1,12 @@
+#$ -N Graphene
+#$ -cwd
+#$ -q short*
+#$ -pe openmpi* 4
+#$ -m a
+#$ -m b
+#$ -m e
+#$ -M sean@aidangeorge.net
+#$ -l proc_vendor=Intel
+
+module load  vasp/5.3.5-mpi
+time mpirun -n 4 vasp
