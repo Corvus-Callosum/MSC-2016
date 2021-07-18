@@ -1,1 +1,2 @@
-# MSC-2016
+# TRiO Math and Science Center - Summer 2016
+## Material Science Engineering
