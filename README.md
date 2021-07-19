@@ -2,9 +2,11 @@
 
 ## Material Science Engineering Project
 
-* Calculation binding energy of graphene - silicon heterostructure
+### Goal:
 
-* Goal: calculate binding energy for a series of graphene - silicon layers beginning with pristine crystalline silicon and ending with pristine graphene layered with glassy (amorphous) silicon. This will provide a theoretical estimation for how well graphene might stick to crystalline silicon vs. glassy silicon.
+* Calculate binding energy of graphene - silicon heterostructure
+
+* Calculate binding energy for a series of graphene - silicon layers beginning with pristine crystalline silicon and ending with pristine graphene layered with glassy (amorphous) silicon. This will provide a theoretical estimation for how well graphene might stick to crystalline silicon vs. glassy silicon.
 
 ### Background:
 What is graphene, when and how was it discovered, why is it interesting, what are possible uses for it -> graphene is a potential Transparent conducting film
