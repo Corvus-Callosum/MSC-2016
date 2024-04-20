@@ -12,7 +12,7 @@
 
 * Graphene: Discovered in 2004, graphene is a single layer of carbon atoms arranged in a honeycomb lattice. It is a promising material for transparent conducting films due to its exceptional electrical conductivity and optical transparency.
 * Silicon: Silicon is the most commonly used material in electronics due to its semiconducting properties. Crystalline silicon is the standard form used in transistors and solar cells, while amorphous silicon (glassy silicon) has different properties and potential applications.
-* VASP: The Vienna Ab initio Simulation Package (VASP) is a software used for performing electronic structure calculations based on density functional theory (DFT).
+* VASP: The Vienna Ab initio Simulation Package is a software used for performing electronic structure calculations based on density functional theory (DFT).
 
 ### Procedure:
 
